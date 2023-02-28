@@ -40,6 +40,9 @@ module.exports = {
       green: "#7FFF00",
       "blue-light": "#837dff",
       red: "#FF0000",
+      btn: "#7ED957",
+      primary: "#ED4D6E",
+      forth: "#e2e0ff",
     },
     boxShadow: {
       "3xl": "2px 5px 3px 0px rgba(0, 0, 0, 0.5)",

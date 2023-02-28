@@ -41,7 +41,7 @@ const Login = () => {
             <h2 className='mb-1'><label htmlFor="password">Password</label></h2>
             <input type="password" name='password' id='password' placeholder='•••••' value={values.password} onChange={handleChange} className='w-full p-2 rounded-lg font-normal border	border-green-400 mb-1 '/>
             {/* btn */}
-            <button type='submit' className='mt-5 text-center w-full bg-btn p-2 rounded-lg 	border cursor-pointer text-white border-black capitalize' >
+            <button type='submit' className='mt-5 text-center w-full bg-btn p-2 rounded-lg 	border cursor-pointer text-black border-black capitalize' >
               {isLoading ? 'Fetching User...' : 'Sign In'}</button> 
             <p className="text-center mt-2">Don't have an account? <Link to="/register"> <span className="text-primary">Register</span></Link></p>
           </form>
